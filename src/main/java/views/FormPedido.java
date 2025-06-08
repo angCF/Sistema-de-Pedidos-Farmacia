@@ -317,12 +317,12 @@ public class FormPedido extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botonCancelar;
-    private javax.swing.JButton botonConfirmar;
-    private javax.swing.JTextField cantidadMedicamento;
-    private javax.swing.JRadioButton cemefar;
-    private javax.swing.JRadioButton cofarma;
-    private javax.swing.ButtonGroup distribuidor;
-    private javax.swing.JRadioButton empsephar;
+    public javax.swing.JButton botonConfirmar;
+    public javax.swing.JTextField cantidadMedicamento;
+    public javax.swing.JRadioButton cemefar;
+    public javax.swing.JRadioButton cofarma;
+    public javax.swing.ButtonGroup distribuidor;
+    public javax.swing.JRadioButton empsephar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -331,9 +331,9 @@ public class FormPedido extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField nombreMedicamento;
-    private javax.swing.JCheckBox sedePrincipal;
-    private javax.swing.JCheckBox sedeSecundaria;
-    private javax.swing.JComboBox<String> tipoMedicamento;
+    public javax.swing.JTextField nombreMedicamento;
+    public javax.swing.JCheckBox sedePrincipal;
+    public javax.swing.JCheckBox sedeSecundaria;
+    public javax.swing.JComboBox<String> tipoMedicamento;
     // End of variables declaration//GEN-END:variables
 }

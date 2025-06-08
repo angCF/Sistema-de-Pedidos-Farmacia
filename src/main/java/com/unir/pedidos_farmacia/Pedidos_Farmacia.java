@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.unir.pedidos_farmacia;
 
-/**
- *
- * @author USER
- */
+import controllers.PedidoController;
+import views.FormPedido;
+
 public class Pedidos_Farmacia {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FormPedido formulario = new FormPedido();
+        PedidoController controlador = new PedidoController(formulario);
+        controlador.getVista().setVisible(true);
     }
 }
